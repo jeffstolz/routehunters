@@ -2,14 +2,13 @@
 <h1> Welcome to RouteHunters!</h1>
 </div>
 
-<hr />
+<div class="col-lg-offset-1 col-lg-10 buffer-sm">
 <% @routes.each do |route| %>
-  <div>
+  <div class="well">
     <h1><%= route.name %></h1><br />
     <i><%= route.locations %></i><br />
     <i><%= route.length %></i><br /><br />
     <p><%= route.description %></p><br />
   </div>
-
-  <hr />
 <% end %>
+</div>
