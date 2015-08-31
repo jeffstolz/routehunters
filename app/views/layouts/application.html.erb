@@ -6,9 +6,21 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
-<%= yield %>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <%= link_to "RouteHunters", root_path, class: "navbar-brand" %>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-5">
+       <%= link_to "Create route", new_route_path, class: "navbar-text navbar-link navbar-right" %>
+    </div>
+  </div>
+</nav>
+
+<div class="buffer">
+  <%= yield %>
+</div>
 
 </body>
 </html>
