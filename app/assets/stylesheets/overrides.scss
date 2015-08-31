@@ -1,0 +1,55 @@
+body {
+  color: #888888;
+  background-color: #060606;
+}
+
+h1 {
+  color:#F26822;
+}
+
+a:hover {
+  color:#F26822 !important;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #F26822;
+  border-color: #F26822;
+}
+
+.btn-primary:hover {
+  background-color: #E56329;
+  border-color: #E56329;
+}
+
+.well {
+  background-color:#424242;
+  border-color:#424242;
+  color:white !important;
+}
+
+.well h1 {
+  color: white;
+}
+
+.well i {
+  color:  #888888;
+}
+
+.well p {
+  color: #C4C4C4;
+}
+
+.navbar-default {
+  background-color: #060606;
+  border-color: #282828;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.buffer {
+  margin-top:30px;
+}
+
