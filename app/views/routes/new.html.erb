@@ -1,0 +1,13 @@
+<div class="text-center">
+  <h1>Add a new route to the list!</h1>
+</div>
+
+<div class="well col-lg-offset-2 col-lg-8">
+  <%= simple_form_for @route do |f| %>
+    <%= f.input :name %>
+    <%= f.input :locations %>
+    <%= f.input :length %>
+    <%= f.input :description %>
+    <%= f.submit 'Create', :class => 'btn btn-primary'  %>
+  <% end %>
+</div>
